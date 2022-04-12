@@ -314,15 +314,55 @@ jQuery(function ($) {
 
 
 
+		//...................//scroollbtn//.................................................//
+
+
+		var btn = $('#scrolltop');
+
+		$(window).scroll(function () {
+			if ($(window).scrollTop() > 300) {
+				btn.addClass('show');
+			} else {
+				btn.removeClass('show');
+			}
+		});
+
+		btn.on('click', function (e) {
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: 0 }, '300');
+		});
 
 
 
 
 
 
-
-
-
+		//Stikcy Header
+		var menubar = $('#sp-menubar');
+		// var slidebar = $('#slidebar');
+		if ($('#sp-menubar').length) {
+			var headerHeight = menubar.outerHeight();
+			var stickyHeaderTop = menubar.offset().top;
+			//menubar.css({"top":stickyHeaderTop});
+			//slidebar.css({"margin-top":headerHeight});
+			var stickyHeader = function () {
+				var scrollTop = $(window).scrollTop();
+				if (scrollTop > stickyHeaderTop) {
+					menubar.addClass('header-sticky');
+					//menubar.css({"top":"0px"});
+				} else {
+					if (menubar.hasClass('header-sticky')) {
+						menubar.removeClass('header-sticky');
+						//menubar.css({"top":stickyHeaderTop});
+					}
+				}
+			};
+			stickyHeader();
+			$(window).scroll(function () {
+				stickyHeader();
+			});
+		}
 
 	});
 });
+
