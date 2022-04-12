@@ -17,6 +17,11 @@ $xs3: 'only screen and (max-width: 375px)';
 $xs4: 'only screen and (max-width: 320px)'; */
 
 @media only screen and (max-width: 320px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
@@ -390,6 +395,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 375px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
@@ -771,6 +781,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 414px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
@@ -1148,6 +1163,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 480px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
@@ -1519,6 +1539,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 575px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
@@ -1884,6 +1909,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 667px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
@@ -2255,6 +2285,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 767px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
@@ -2626,6 +2661,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 991px) {
+    #sp-menubar.header-sticky {
+        position: relative !important;
+
+    }
+
     #news-post .post-inner ul {
         display: block;
         margin-bottom: 20px;
