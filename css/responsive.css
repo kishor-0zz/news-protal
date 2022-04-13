@@ -17,6 +17,10 @@ $xs3: 'only screen and (max-width: 375px)';
 $xs4: 'only screen and (max-width: 320px)'; */
 
 @media only screen and (max-width: 320px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 
@@ -395,6 +399,10 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 375px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 
@@ -781,6 +789,10 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 414px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 
@@ -1163,6 +1175,10 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 480px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 
@@ -1539,6 +1555,10 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 575px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 
@@ -1909,6 +1929,10 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 667px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 
@@ -2285,6 +2309,10 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 767px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 
@@ -2661,6 +2689,10 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 991px) {
+    .post-saher.text-end {
+        display: none !important;
+    }
+
     #sp-menubar.header-sticky {
         position: relative !important;
 

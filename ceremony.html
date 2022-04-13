@@ -20,6 +20,9 @@
 	<title>news-protal</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+	<link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
+
 	<!--Google Fonts-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +31,25 @@
 		rel="stylesheet">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/magnificPopup/css/magnific-popup.css">
+
+
+
+
+	<!-- <link rel="stylesheet" type="text/css"
+		href="https://dimsemenov.com/plugins/royal-slider/preview-assets/css/reset.css?v=1.0.4"> -->
+	<!-- <link rel="stylesheet" type="text/css"
+		href="https://dimsemenov.com/plugins/royal-slider/royalslider/royalslider.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://dimsemenov.com/plugins/royal-slider/royalslider/skins/default/rs-default.css?v=1.0.4"> -->
+
+
+
+
+
+
+
+
 	<!-- FontAwesome CSS -->
 	<link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/all.min.css">
 	<!-- Spacing CSS -->
@@ -35,6 +57,9 @@
 	<!-- swiper-slider CSS -->
 	<link rel="stylesheet" type="text/css" href="vendor/swiper-slider/css/swiper-bundle.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/sp-megamenu/css/sp-megamenu.min.css">
+	<!-- OwlCarousel CSS -->
+	<link rel="stylesheet" type="text/css" href="vendor/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/owlcarousel/assets/owl.theme.default.css">
 
 	<!-- Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -306,7 +331,7 @@
 										</div>
 									</li>
 									<li class="menu-item">
-										<a href="culture.html" class="menu-item-link main-item active">সংস্কৃতি</a>
+										<a href="culture.html" class="menu-item-link main-item">সংস্কৃতি</a>
 										<span class="menu-togglearrow d-md-none"><i class="fas"></i></span>
 										<div class="dropdown-inner">
 											<ul class="dropdown level1">
@@ -502,7 +527,7 @@
 										</div>
 									</li>
 									<li class="menu-item">
-										<a href="video.html" class="menu-item-link main-item">
+										<a href="video.html" class="menu-item-link main-item active">
 											<img src="images/menu-img/video-menu.png" alt="video-item">
 										</a>
 
@@ -592,425 +617,290 @@
 	</header>
 	<!-- Starting Main Content -->
 	<main>
-		<!-- Starting input-bar -->
-		<div id="input-bar">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-lg-2"></div>
-					<div class="col-lg-10 from-options pb-10 pt-10">
-						<form action="#" method="post">
-							<input type="hidden" name="category" value="1">
-							<div class="impit1">
-
-								<input type="text" name="headline" class="form-control">
-							</div>
-							<div class="impit2">
-								<label for="division">তারিখ </label>
-								<input type="date" value="" name="s_date" class="form-control">
-
-							</div>
-							<div class="impit3">
-								<label for="district">থেকে </label>
-								<input type="date" value="" name="e_date" class="form-control">
-
-							</div>
-
-							<div class="submit-btn">
-								<button type="submit" class="btn btn-danger btn-block">অনুসন্ধান
-									করুন
-								</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Ending input-bar -->
 		<!-- Starting news1 -->
-		<div id="news5" class="country country6">
+		<div id="news1" class="country country2 video-gallery">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-2">
 						<div class="news1-left">
 							<div class="news1-title">
-								<h6>সংস্কৃতি </h6>
+								<h5>ভিডিও</h5>
 							</div>
-							<div class="news1-text">
-								<a href="post-news.html">
-									এই বিভাগের<br>আরও সংবাদ
-								</a>
+							<div class="news-text">
+								<p>বুধবার, ১৩ এপ্রিল ২০২২</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-7">
-						<div class="news1-middle-top mb-10">
+					<div class="col-lg-9">
+						<div class="video-content">
 							<div class="row">
-								<div class="col-lg-5">
-									<div class="middle-text">
-										<a href="post-news.html">
-											<h4>ভূত সাজতে ভ্রু কেটেছিলেন শিলা</h4>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
 										</a>
-										<p>মডেলিংয়ে নিয়মিত শিলা অভিনয় করেছেন সম্প্রতি। আর অভিনয় করতে গিয়েই তাকে কেটে
-											ফেলতে হয়েছিল ভ্রু। চেনা শিলা যেন মুহূর্তে হয়ে গিয়েছিলেন অপরিচিত কেউ। শিরিন
-											আক্তার শিলা, মিস ইউনিভার্স বাংলাদেশ হিসেবে বেশি পরিচিত। মডেল হিসেবে কাজ
-											করছেন নিয়মিতই। সম্প্রতি…</p>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
 									</div>
 								</div>
-								<div class="col-lg-7">
-
-									<a href="post-news.html">
-										<img src="images/news-page/news1/1.jpg" alt="news">
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="news1-middle-bottom">
-							<div class="row">
-								<div class="col-lg-7">
-									<div class="middle-bottom-left">
-										<a href="post-news.html">
-											<img src="images/news-page/news1/2.jpg" alt="news">
-											<h4>‘ডুবছে হাওর কাঁদছে কৃষক, দায় কার’</h4>
-											<p>সুনামগঞ্জে অপরিকল্পিত বাঁধ নির্মাণ, অনিয়ম ও ব্যাপক দুর্নীতির অভিযোগ
-												এনে
-												হাওরে ফসল ডুবির প্রতিবাদে বিক্ষোভ মিছিল ও সমাবেশ করেছে হাওর বাঁচাও
-												আন্দোলন জেলা…</p>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
 										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
 									</div>
 								</div>
-								<div class="col-lg-5">
-									<div class="middle-bottom-left-box1">
-										<a href="post-news.html">
-											<img src="images/news-page/news1/3.jpg" alt="news">
-											<p>গাছের সঙ্গে ধাক্কায় বাসের ৩ যাত্রী নিহত</p>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
 										</a>
 									</div>
-									<div class="middle-bottom-left-box2 mt-10 mb-10">
-										<a href="post-news.html">
-											<img src="images/news-page/news1/4.jpg" alt="news">
-											<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
 										</a>
 									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<img src="images/news-page/news1/4.jpg" alt="news">
-											<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
 										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div class="news-right">
-							<div class="middle-bottom-left-box1">
-								<a href="post-news.html">
-									<img src="images/news-page/news1/3.jpg" alt="news">
-									<p>গাছের সঙ্গে ধাক্কায় বাসের ৩ যাত্রী নিহত</p>
-								</a>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="news1-left">
+							<div class="news1-title">
 							</div>
-							<div class="middle-bottom-left-box2 mt-10 mb-10">
-								<a href="post-news.html">
-									<img src="images/news-page/news1/7.jpg" alt="news">
-									<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
-								</a>
+							<div class="news-text">
+								<p>বুধবার, ১৩ এপ্রিল ২০২২</p>
 							</div>
-							<div class="middle-bottom-left-box2 mt-10 mb-10">
-								<a href="post-news.html">
-									<img src="images/news-page/news1/8.jpg" alt="news">
-									<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
-								</a>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="video-content">
+							<div class="row">
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
+								<div class="col-lg-3 mb-20">
+									<div class="video-inner">
+										<a href="https://www.youtube.com/watch?v=PqiddY3o3aY&list=RDI-m4cX22UlQ&index=9"
+											class="video-icon">
+											<img src="images/gallery-slider/2.jpg" alt="video">
+											<span class="fas fa-play"></span>
+										</a>
+									</div>
+									<div class="video-title">
+										<p>এক দিকে পহেলা বৈশাখ, আরেক দিকে ঈদ। দুটি উৎসবকে কেন্দ্র করে…</p>
+									</div>
+								</div>
 							</div>
-							<div class="middle-bottom-left-box2 mt-10 mb-10">
-								<a href="post-news.html">
-									<img src="images/news-page/news1/4.jpg" alt="news">
-									<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
-								</a>
-							</div>
-							<div class="middle-bottom-left-box2 mt-10 mb-10">
-								<a href="post-news.html">
-									<img src="images/news-page/news1/6.jpg" alt="news">
-									<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
-								</a>
-							</div>
-							<div class="middle-bottom-left-box2 mt-10 mb-10">
-								<a href="post-news.html">
-									<img src="images/news-page/news1/7.jpg" alt="news">
-									<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
-								</a>
-							</div>
-							<div class="middle-bottom-left-box2 mt-10 mb-10">
-								<a href="post-news.html">
-									<img src="images/news-page/news1/8.jpg" alt="news">
-									<p>দুই অটোরিকশার সংঘর্ষে শ্রমিক নিহত</p>
-								</a>
-							</div>
+						</div>
+					</div>
+					<hr>
 
+				</div>
+			</div>
+		</div>
+		<!-- Ending news1 -->
+	</main>
+	<!-- Ending Main Content -->
+	<footer>
+		<div class="footer-area-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class=" top-area-btns va-middle">
+							<button class="btn1">
+								<a href="https://www.google.com/" target="_blank">DMCA</a>
+							</button>
+							<button class="btn2">
+								<a href="https://www.google.com/" target="_blank">PROTECTED</a>
+							</button>
+						</div>
+					</div>
+					<div class=" col-lg-8 top-area-inner text-center">
+						<div class="text1">
+							<h6>সম্পাদক: তোয়াব খান</h6>
+						</div>
+						<div class="text1">
+							<h6>উপদেষ্টা সম্পাদক: মোঃ নজরুল ইসলাম মজুমদার</h6>
+						</div>
+						<div class="text1">
+							<ul>
+								<li>
+									<h6>সম্পাদকমণ্ডলীর সভাপতি: চৌধুরী নাফিজ সরাফাত</h6>
+								</li>
+								<li>
+									<h6>প্রকাশক: শাহনুল হাসান খান</h6>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="top-area-img va-middle">
+							<a href="#" target="_blank">
+								<img src="images/footer-top/google-play.png" alt="apple">
+							</a>
+							<a href="#" target="_blank">
+								<img src="images/footer-top/apple.png" alt="google">
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Ending news1 -->
-		<!-- Starting news2 -->
-		<section id="culture-news2">
-			<div class="container country country5">
-				<!-- Starting news2 -->
-				<section id="news2">
-					<div class="container-fluid">
-						<div class="border-section2 mb-20">
-							<div class="title-btn text-end">
-								<a href="post-news.html"> এই বিভাগের আরও সংবাদ <i
-										class="fa-solid fa-angles-right"></i></a>
-							</div>
-						</div>
-						<div class="news2-inner">
-							<div class="row">
-								<div class="col-lg-2 text-start pt-0 news2-inner-title">
-									<h2>বিজ্ঞান</h2>
-								</div>
-								<div class="col-lg-7">
-									<div class="row">
-										<div class="col-lg-7">
-											<div class="middle-bottom-left">
-												<a href="post-news.html">
-													<img src="images/news-page/news1/2.jpg" alt="news">
-													<h4>‘ডুবছে হাওর কাঁদছে কৃষক, দায় কার’</h4>
-													<p>সুনামগঞ্জে অপরিকল্পিত বাঁধ নির্মাণ, অনিয়ম ও ব্যাপক দুর্নীতির
-														অভিযোগ
-														এনে
-														হাওরে ফসল ডুবির প্রতিবাদে বিক্ষোভ মিছিল ও সমাবেশ করেছে হাওর
-														বাঁচাও
-														আন্দোলন জেলা…</p>
-												</a>
-											</div>
-										</div>
-										<div class="col-lg-5">
-											<div class="middle-bottom-left-box1">
-												<a href="post-news.html">
-													<img src="images/news-page/news1/3.jpg" alt="news">
-													<p>গাছের সঙ্গে ধাক্কায় বাসের ৩ যাত্রী নিহত</p>
-												</a>
-											</div>
-											<div class="middle-bottom-left-box2">
-												<a href="post-news.html">
-													<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-												</a>
-											</div>
-											<div class="middle-bottom-left-box2">
-												<a href="post-news.html">
-													<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="middle-bottom-left-box2 mt-0">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>সরকারি প্রাথমিক শিক্ষকদের জন্য হচ্ছে কল্যাণ ট্রাস্ট</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>সরকারি প্রাথমিক শিক্ষকদের জন্য হচ্ছে কল্যাণ ট্রাস্ট</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Ending news2 -->
-				<!-- Starting news2 -->
-				<section id="news2">
-					<div class="container-fluid">
-						<div class="border-section2 mb-20">
-							<div class="title-btn text-end">
-								<a href="post-news.html"> এই বিভাগের আরও সংবাদ <i
-										class="fa-solid fa-angles-right"></i></a>
-							</div>
-						</div>
-						<div class="news2-inner">
-							<div class="row">
-								<div class="col-lg-2 text-start pt-0 news2-inner-title">
-									<h2>ফলোআপ</h2>
-								</div>
-								<div class="col-lg-7">
-									<div class="row">
-										<div class="col-lg-7">
-											<div class="middle-bottom-left">
-												<a href="post-news.html">
-													<img src="images/news-page/news1/2.jpg" alt="news">
-													<h4>‘ডুবছে হাওর কাঁদছে কৃষক, দায় কার’</h4>
-													<p>সুনামগঞ্জে অপরিকল্পিত বাঁধ নির্মাণ, অনিয়ম ও ব্যাপক দুর্নীতির
-														অভিযোগ
-														এনে
-														হাওরে ফসল ডুবির প্রতিবাদে বিক্ষোভ মিছিল ও সমাবেশ করেছে হাওর
-														বাঁচাও
-														আন্দোলন জেলা…</p>
-												</a>
-											</div>
-										</div>
-										<div class="col-lg-5">
-											<div class="middle-bottom-left-box1">
-												<a href="post-news.html">
-													<img src="images/news-page/news1/3.jpg" alt="news">
-													<p>গাছের সঙ্গে ধাক্কায় বাসের ৩ যাত্রী নিহত</p>
-												</a>
-											</div>
-											<div class="middle-bottom-left-box2">
-												<a href="post-news.html">
-													<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-												</a>
-											</div>
-											<div class="middle-bottom-left-box2">
-												<a href="post-news.html">
-													<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="middle-bottom-left-box2 mt-0">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>সরকারি প্রাথমিক শিক্ষকদের জন্য হচ্ছে কল্যাণ ট্রাস্ট</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>সরকারি প্রাথমিক শিক্ষকদের জন্য হচ্ছে কল্যাণ ট্রাস্ট</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Ending news2 -->
-				<!-- Starting news2 -->
-				<section id="news2">
-					<div class="container-fluid">
-						<div class="border-section2 mb-20">
-							<div class="title-btn text-end">
-								<a href="post-news.html"> এই বিভাগের আরও সংবাদ <i
-										class="fa-solid fa-angles-right"></i></a>
-							</div>
-						</div>
-						<div class="news2-inner">
-							<div class="row">
-								<div class="col-lg-2 text-start pt-0 news2-inner-title">
-									<h2>বিশেষ</h2>
-								</div>
-								<div class="col-lg-7">
-									<div class="row">
-										<div class="col-lg-7">
-											<div class="middle-bottom-left">
-												<a href="post-news.html">
-													<img src="images/news-page/news1/2.jpg" alt="news">
-													<h4>‘ডুবছে হাওর কাঁদছে কৃষক, দায় কার’</h4>
-													<p>সুনামগঞ্জে অপরিকল্পিত বাঁধ নির্মাণ, অনিয়ম ও ব্যাপক দুর্নীতির
-														অভিযোগ
-														এনে
-														হাওরে ফসল ডুবির প্রতিবাদে বিক্ষোভ মিছিল ও সমাবেশ করেছে হাওর
-														বাঁচাও
-														আন্দোলন জেলা…</p>
-												</a>
-											</div>
-										</div>
-										<div class="col-lg-5">
-											<div class="middle-bottom-left-box1">
-												<a href="post-news.html">
-													<img src="images/news-page/news1/3.jpg" alt="news">
-													<p>গাছের সঙ্গে ধাক্কায় বাসের ৩ যাত্রী নিহত</p>
-												</a>
-											</div>
-											<div class="middle-bottom-left-box2">
-												<a href="post-news.html">
-													<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-												</a>
-											</div>
-											<div class="middle-bottom-left-box2">
-												<a href="post-news.html">
-													<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="middle-bottom-left-box2 mt-0">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>সরকারি প্রাথমিক শিক্ষকদের জন্য হচ্ছে কল্যাণ ট্রাস্ট</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>সরকারি প্রাথমিক শিক্ষকদের জন্য হচ্ছে কল্যাণ ট্রাস্ট</h2>
-										</a>
-									</div>
-									<div class="middle-bottom-left-box2">
-										<a href="post-news.html">
-											<h2>পদ্মা সেতু উদ্বোধন পেছাচ্ছে যে কারণে</h2>
-										</a>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Ending news2 -->
-			</div>
-		</section>
-		<!-- Ending news2 -->
-	</main>
-	<!-- Ending Main Content -->
-	<footer>
 		<!-- Starting sp-bottom -->
 		<section id="sp-bottom">
 			<div class="container">
@@ -1097,13 +987,26 @@
 	</footer>
 	<div id="scrolltop" class=""><span class="fas fa-angle-up"></span></div>
 
+	<script>
+
+	</script>
+
+
+
+
 
 
 	<!-- jQuery JS -->
 	<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+	<!-- <script src="https://dimsemenov.com/plugins/royal-slider/royalslider/jquery.royalslider.min.js?v=9.3.6"></script> -->
+
+
+
 	<!-- Bootstrap JS -->
 	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="vendor/magnificPopup/js/jquery.magnific-popup.min.js"></script>
 	<!-- swiper-slider JS -->
 	<script type="text/javascript" src="vendor/swiper-slider/js/swiper-bundle.min.js"></script>
 	<script type="text/javascript" src="vendor/sp-megamenu/js/sp-megamenu.js"></script>
@@ -1113,7 +1016,7 @@
 	<script type="text/javascript" src="vendor/isotope/js/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="vendor/isotope/js/imagesloaded.pkgd.min.js"></script>
 	<!-- Theme JS -->
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/script1.js"></script>
 </body>
 
 </html>

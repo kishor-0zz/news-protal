@@ -55,34 +55,71 @@
 		<div id="topbar">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-9 text-end">
+					<div class="col-lg-7 text-end">
 						<div class="topbar-inner text-end">
 							<nav>
 								<ul>
-									<li><a href="https://www.facebook.com" target="_blank"><i
-												class="fa-brands fa-facebook-f"></i></a></li>
-									<li><a href="https://twitter.com/home" target="_blank"><i
-												class="fa-brands fa-twitter"></i></a></li>
-									<li><a href="https://www.youtube.com/" target="_blank"><i
-												class="fa-brands fa-youtube"></i></a></li>
-									<li><a href="https://www.linkedin.com/feed/" target="_blank"><i
-												class="fa-brands fa-linkedin-in"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
 								</ul>
 							</nav>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-5">
 						<div class="topbar-inner text-center">
 							<nav>
 								<ul>
-									<li><a href="mailto: kishorsaha650@gmail.com" target="_blank"><i
-												class="fa-solid fa-envelope content-item"></i>সাবস্ক্রিপশন</a>
+									<li class="modal-area">
+
+										<a href="#">
+
+
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal"
+												data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+												<i class="fa-solid fa-envelope content-item"></i>
+												সাবস্ক্রিপশন</button>
+											<div class="modal fade" id="exampleModal" tabindex="-1"
+												aria-labelledby="exampleModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title" id="exampleModalLabel">
+																সাবস্ক্রাইব করুন
+															</h5>
+															<button type="button" class="btn-close"
+																data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body">
+															<form>
+																<div class="mb-3">
+																	<label for="message-text"
+																		class="col-form-label">ইমেইল
+																		এড্রেস *</label>
+																	<!-- <textarea class="form-control"
+																			id="message-text"></textarea> -->
+																	<input type="email" class="form-control"
+																		id="exampleInputEmail1"
+																		aria-describedby="emailHelp">
+																</div>
+															</form>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary"
+																data-bs-dismiss="modal">সাবস্ক্রাইব করুন</button>
+															<button type="button" class="btn btn-primary">বাতিল
+																করুন</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</a>
 									</li>
-									<li><a href="https://www.google.com/maps/place/Dhaka/@23.7808875,90.2792379,11z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.810332!4d90.4125181"
-											target="_blank"><i class="fa-solid fa-location-dot content-item"></i>ঢাকা
-											মঙ্গলবার,
+									<li><span><i class="fa-solid fa-location-dot content-item"></i>ঢাকা মঙ্গলবার,
 											২৯ মার্চ
-											২০২২</a></li>
+											২০২২</span></li>
 
 								</ul>
 							</nav>
@@ -117,7 +154,7 @@
 										<a href="index.html" class="menu-item-link main-item">হোম</a>
 									</li>
 									<li class="menu-item">
-										<a href="news.html" class="menu-item-link main-item ">সংবাদ</a>
+										<a href="news.html" class="menu-item-link main-item">সংবাদ</a>
 										<span class="menu-togglearrow d-md-none"><i class="fas"></i></span>
 										<div class="dropdown-inner">
 											<ul class="dropdown level1">
@@ -330,7 +367,7 @@
 													<a href="news.html" class="menu-item-link">সিলেট</a>
 												</li>
 												<li class="menu-item">
-													<a href="news.html" class="menu-item-link">খুলনা</a>
+													<a href="#" class="menu-item-link">খুলনা</a>
 												</li>
 												<li class="menu-item">
 													<a href="news.html" class="menu-item-link">বরিশাল</a>
@@ -465,13 +502,13 @@
 										</div>
 									</li>
 									<li class="menu-item">
-										<a href="#slidebar" class="menu-item-link main-item">
+										<a href="video.html" class="menu-item-link main-item">
 											<img src="images/menu-img/video-menu.png" alt="video-item">
 										</a>
 
 									</li>
 									<li class="menu-item ">
-										<a href="#photo-gallery" class="menu-item-link main-item">
+										<a href="photo-gallery.html" class="menu-item-link main-item">
 											<img src="images/menu-img/photo-menu.png" alt="photo-item">
 										</a>
 
@@ -505,21 +542,19 @@
 				<div class="menu-toggle-inner">
 					<nav>
 						<ul class="toggle-menu">
-							<li><a class="toggle-submenu-show" href="post-news.html"><i
+							<li><a class="toggle-submenu-show" href="index.html"><i
 										class="fa-solid fa-house-chimney"></i>হোম</a>
 							</li>
 							<li><a href="post-news.html"><i class="fa-solid fa-user"></i>আমাদের সম্পর্কে</a></li>
 							<li><a href="post-news.html"><i class="fa-solid fa-circle-info"></i>প্রাইভেসি পলিসি</a>
 							</li>
-							<li><a href="post-news.html"><i class="fa-solid fa-phone"></i>যোগাযোগ</a></li>
+							<li><a href="contact.html"><i class="fa-solid fa-phone"></i>যোগাযোগ</a></li>
 							<li><a href="post-news.html"><i class="fa-solid fa-newspaper"></i>বিজ্ঞাপন</a></li>
-							<li><a href="https://www.facebook.com" target="_blank"><i
-										class="fa-brands fa-facebook-f"></i>
-									ফেসবুক</a></li>
-							<li><a href="https://twitter.com/home" target="_blank"><i
+							<li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"
+										target="_blank"></i>ফেসবুক</a></li>
+							<li><a href="https://twitter.com/home?lang=en" target="_blank"><i
 										class="fa-brands fa-twitter"></i>টুইটার</a></li>
-							<li><a href="https://www.youtube.com/" target="_blank"><i
-										class="fa-brands fa-youtube"></i>ভিডিও</a></li>
+							<li><a href="ceremony.html"><i class="fa-brands fa-youtube"></i>ভিডিও</a></li>
 							<li><a href="https://play.google.com/store/search?q=apple&c=apps" target="_blank"><i
 										class="fa-brands fa-apple"></i>অ্যাপল (আইওএস)</a></li>
 							<li><a href="https://play.google.com/store/search?q=apple&c=apps" target="_blank"><i
@@ -1060,6 +1095,7 @@
 			<p>©নিউজবাংলা টোয়েন্টিফোর ডটকম</p>
 		</div>
 	</footer>
+	<div id="scrolltop" class=""><span class="fas fa-angle-up"></span></div>
 
 
 

@@ -31,6 +31,24 @@
 		rel="stylesheet">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+
+
+
+
+	<!-- <link rel="stylesheet" type="text/css"
+		href="https://dimsemenov.com/plugins/royal-slider/preview-assets/css/reset.css?v=1.0.4"> -->
+	<link rel="stylesheet" type="text/css"
+		href="https://dimsemenov.com/plugins/royal-slider/royalslider/royalslider.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://dimsemenov.com/plugins/royal-slider/royalslider/skins/default/rs-default.css?v=1.0.4">
+
+
+
+
+
+
+
+
 	<!-- FontAwesome CSS -->
 	<link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/all.min.css">
 	<!-- Spacing CSS -->
@@ -61,7 +79,7 @@
 		<div id="topbar">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-9 text-end">
+					<div class="col-lg-7 text-end">
 						<div class="topbar-inner text-end">
 							<nav>
 								<ul>
@@ -73,15 +91,59 @@
 							</nav>
 						</div>
 					</div>
-					<div class="col-lg-3">
+					<div class="col-lg-5">
 						<div class="topbar-inner text-center">
 							<nav>
 								<ul>
-									<li><a href="#"><i class="fa-solid fa-envelope content-item"></i>সাবস্ক্রিপশন</a>
+									<li class="modal-area">
+
+										<a href="#">
+
+
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal"
+												data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+												<i class="fa-solid fa-envelope content-item"></i>
+												সাবস্ক্রিপশন</button>
+											<div class="modal fade" id="exampleModal" tabindex="-1"
+												aria-labelledby="exampleModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title" id="exampleModalLabel">
+																সাবস্ক্রাইব করুন
+															</h5>
+															<button type="button" class="btn-close"
+																data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body">
+															<form>
+																<div class="mb-3">
+																	<label for="message-text"
+																		class="col-form-label">ইমেইল
+																		এড্রেস *</label>
+																	<!-- <textarea class="form-control"
+																			id="message-text"></textarea> -->
+																	<input type="email" class="form-control"
+																		id="exampleInputEmail1"
+																		aria-describedby="emailHelp">
+																</div>
+															</form>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary"
+																data-bs-dismiss="modal">সাবস্ক্রাইব করুন</button>
+															<button type="button" class="btn btn-primary">বাতিল
+																করুন</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</a>
 									</li>
-									<li><a href="#"><i class="fa-solid fa-location-dot content-item"></i>ঢাকা মঙ্গলবার,
+									<li><span><i class="fa-solid fa-location-dot content-item"></i>ঢাকা মঙ্গলবার,
 											২৯ মার্চ
-											২০২২</a></li>
+											২০২২</span></li>
 
 								</ul>
 							</nav>
@@ -464,13 +526,13 @@
 										</div>
 									</li>
 									<li class="menu-item">
-										<a href="#slidebar" class="menu-item-link main-item">
+										<a href="video.html" class="menu-item-link main-item">
 											<img src="images/menu-img/video-menu.png" alt="video-item">
 										</a>
 
 									</li>
 									<li class="menu-item ">
-										<a href="#photo-gallery" class="menu-item-link main-item">
+										<a href="photo-gallery.html" class="menu-item-link main-item">
 											<img src="images/menu-img/photo-menu.png" alt="photo-item">
 										</a>
 
@@ -504,17 +566,19 @@
 				<div class="menu-toggle-inner">
 					<nav>
 						<ul class="toggle-menu">
-							<li><a class="toggle-submenu-show" href="post-news.html"><i
+							<li><a class="toggle-submenu-show" href="index.html"><i
 										class="fa-solid fa-house-chimney"></i>হোম</a>
 							</li>
 							<li><a href="post-news.html"><i class="fa-solid fa-user"></i>আমাদের সম্পর্কে</a></li>
 							<li><a href="post-news.html"><i class="fa-solid fa-circle-info"></i>প্রাইভেসি পলিসি</a>
 							</li>
-							<li><a href="post-news.html"><i class="fa-solid fa-phone"></i>যোগাযোগ</a></li>
+							<li><a href="contact.html"><i class="fa-solid fa-phone"></i>যোগাযোগ</a></li>
 							<li><a href="post-news.html"><i class="fa-solid fa-newspaper"></i>বিজ্ঞাপন</a></li>
-							<li><a href="#"><i class="fa-brands fa-facebook-f"></i>ফেসবুক</a></li>
-							<li><a href="#"><i class="fa-brands fa-twitter"></i>টুইটার</a></li>
-							<li><a href="#"><i class="fa-brands fa-youtube"></i>ভিডিও</a></li>
+							<li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"
+										target="_blank"></i>ফেসবুক</a></li>
+							<li><a href="https://twitter.com/home?lang=en" target="_blank"><i
+										class="fa-brands fa-twitter"></i>টুইটার</a></li>
+							<li><a href="ceremony.html"><i class="fa-brands fa-youtube"></i>ভিডিও</a></li>
 							<li><a href="https://play.google.com/store/search?q=apple&c=apps" target="_blank"><i
 										class="fa-brands fa-apple"></i>অ্যাপল (আইওএস)</a></li>
 							<li><a href="https://play.google.com/store/search?q=apple&c=apps" target="_blank"><i
@@ -569,7 +633,7 @@
 								<div class="swiper-slide">
 									<div class="slide-item">
 										<div class="slide-img">
-											<a href="https://www.youtube.com/watch?v=lm3yy29vbqM" target="_blank">
+											<a href="ceremony.html" target="_blank">
 												<img src="images/slider/Adrian-Morrison.png" alt="slide1">
 												<i class="fa-solid fa-circle-play  play-btn"></i>
 											</a>
@@ -589,7 +653,7 @@
 								<div class="swiper-slide">
 									<div class="slide-item">
 										<div class="slide-img">
-											<a href="https://www.youtube.com/watch?v=lm3yy29vbqM" target="_blank">
+											<a href="ceremony.html" target="_blank">
 												<img src="images/slider/Anthony-Morrison.png" alt="slide1">
 												<i class="fa-solid fa-circle-play  play-btn"></i>
 											</a>
@@ -609,7 +673,7 @@
 								<div class="swiper-slide">
 									<div class="slide-item">
 										<div class="slide-img">
-											<a href="https://www.youtube.com/watch?v=lm3yy29vbqM" target="_blank">
+											<a href="ceremony.html" target="_blank">
 												<img src="images/slider/Billy-Gene.png" alt="slide1">
 												<i class="fa-solid fa-circle-play  play-btn"></i>
 											</a>
@@ -629,7 +693,7 @@
 								<div class="swiper-slide">
 									<div class="slide-item">
 										<div class="slide-img">
-											<a href="https://www.youtube.com/watch?v=lm3yy29vbqM" target="_blank">
+											<a href="ceremony.html" target="_blank">
 												<img src="images/slider/Josh-Bezoni.png" alt="slide1">
 												<i class="fa-solid fa-circle-play  play-btn"></i>
 											</a>
@@ -649,7 +713,7 @@
 								<div class="swiper-slide">
 									<div class="slide-item">
 										<div class="slide-img">
-											<a href="https://www.youtube.com/watch?v=lm3yy29vbqM" target="_blank">
+											<a href="ceremony.html" target="_blank">
 												<img src="images/slider/Adrian-Morrison.png" alt="slide1">
 												<i class="fa-solid fa-circle-play  play-btn"></i>
 											</a>
@@ -669,7 +733,7 @@
 								<div class="swiper-slide">
 									<div class="slide-item">
 										<div class="slide-img">
-											<a href="https://www.youtube.com/watch?v=lm3yy29vbqM" target="_blank">
+											<a href="ceremony.html" target="_blank">
 												<img src="images/slider/Adrian-Morrison.png" alt="slide1">
 												<i class="fa-solid fa-circle-play  play-btn"></i>
 											</a>
@@ -689,7 +753,7 @@
 								<div class="swiper-slide">
 									<div class="slide-item">
 										<div class="slide-img">
-											<a href="https://www.youtube.com/watch?v=lm3yy29vbqM" target="_blank">
+											<a href="ceremony.html" target="_blank">
 												<img src="images/slider/Adrian-Morrison.png" alt="slide1">
 												<i class="fa-solid fa-circle-play  play-btn"></i>
 											</a>
@@ -6119,89 +6183,79 @@
 
 
 
-		<section id="video-gallery">
+		<section id="video-gallery-main">
 			<div class="container-fluid">
 				<div class="border-section mb-30">
 					<div class="title-area">
 						<a href="post-news.html">ভিডিও</a>
 					</div>
 					<div class="title-icon">
-						<a href="news.html">অনুষ্ঠান<i class="fa-solid fa-arrow-right"></i></a>
+						<a href="ceremony.html">অনুষ্ঠান <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 				</div>
-				<div class="grid-row reverse video-gallery">
-					<input type="radio" value="1" name="video-list" id="video-1" checked="checked" /><label
-						for="video-1">'নাচতে নামলে ঘোমটা দিয়ে লাভ নাই'</label>
-					<input type="radio" value="2" name="video-list" id="video-2" /><label for="video-2">তিস্তার পানিতে
-						ফসলের ক্ষতি, দিশাহারা কৃষক</label>
-					<input type="radio" value="3" name="video-list" id="video-3" /><label for="video-3">ইউটিউবের আয়ে
-						গ্রামবাসীর ভরপুর খাওয়া-দাওয়া</label>
-					<input type="radio" value="4" name="video-list" id="video-4" /><label for="video-4">কাঁচা আমের
-						জিলাপি </label>
-					<input type="radio" value="5" name="video-list" id="video-5" /><label for="video-5">চবির চারুকলাজুড়ে
-						বর্ষবরণ ও মঙ্গল শোভাযাত্রার প্রস্তুতি</label>
-					<input type="radio" value="6" name="video-list" id="video-6" /><label for="video-6">গরমে বাড়ছে
-						ডায়ারিয়ার প্রকোপ, হাসপাতালে ভিড়</label>
-					<input type="radio" value="7" name="video-list" id="video-7" /><label for="video-7">ইউটিউবের আয়ে
-						গ্রামবাসীর ভরপুর খাওয়া-দাওয়া</label>
-					<input type="radio" value="8" name="video-list" id="video-8" /><label for="video-8">কাঁচা আমের
-						জিলাপি </label>
-					<input type="radio" value="9" name="video-list" id="video-9" /><label for="video-9">চবির চারুকলাজুড়ে
-						বর্ষবরণ ও মঙ্গল শোভাযাত্রার প্রস্তুতি</label>
-					<input type="radio" value="10" name="video-list" id="video-10" /><label for="video-10">গরমে বাড়ছে
-						ডায়ারিয়ার প্রকোপ, হাসপাতালে ভিড়</label>
-					<!-- videos -->
-					<div class="video video-1">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/ROqDTIxRX0Y" frameborder="0"
-							allowfullscreen></iframe>
+				<div class="col span_6 fwImage">
+					<div id="video-gallery" class="royalSlider videoGallery rsDefault">
+						<a class="rsImg" data-rsVideo="https://vimeo.com/687292066" href="images/gallery-slider/4.jpg">
+							<div class="rsTmb">
+								<h5>সাংগ্রাই উৎসবে মাতোয়ারা মারমা সম্প্রদায় </h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/44878206" href="images/gallery-slider/1.jpg">
+							<div class="rsTmb">
+								<h5>ধর্মের সঙ্গে সংস্কৃতিচর্চার সংঘাত নেই</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/45778774" href="images/gallery-slider/2.jpg">
+							<div class="rsTmb">
+								<h5>কুষ্টিয়ায় রেল ধর্মঘটের সর্বশেষ</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/41132461" href="images/gallery-slider/3.jpg">
+							<div class="rsTmb">
+								<h5>হুমায়ন আজাদ হত্যা মামলার রায় </h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/44388232" href="images/gallery-slider/1.jpg">
+							<div class="rsTmb">
+								<h5>দারিদ্র্যেই জীবন সুন্দর: আক্কু চৌধুরী</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/44388232" href="images/gallery-slider/3.jpg">
+							<div class="rsTmb">
+								<h5>দারিদ্র্যেই জীবন সুন্দর: আক্কু চৌধুরী</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/44388232" href="images/gallery-slider/4.jpg">
+							<div class="rsTmb">
+								<h5>দারিদ্র্যেই জীবন সুন্দর: আক্কু চৌধুরী</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/44388232" href="images/gallery-slider/2.jpg">
+							<div class="rsTmb">
+								<h5>দারিদ্র্যেই জীবন সুন্দর: আক্কু চৌধুরী</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/44388232" href="images/gallery-slider/4.jpg">
+							<div class="rsTmb">
+								<h5>দারিদ্র্যেই জীবন সুন্দর: আক্কু চৌধুরী</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsVideo="https://vimeo.com/44388232" href="images/gallery-slider/2.jpg">
+							<div class="rsTmb">
+								<h5>দারিদ্র্যেই জীবন সুন্দর: আক্কু চৌধুরী</h5>
+							</div>
+						</a>
 					</div>
-
-					<div class="video video-2">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/9iGoDNlKY-g" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-
-					<div class="video video-3">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/l70UhhNalqA" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-
-					<div class="video video-4">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/XDrB5c4-c9Y" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-
-					<div class="video video-5">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/UXP307MGQzs" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-
-					<div class="video video-6">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/0kY0Q5hdjDI" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-					<div class="video video-7">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/l70UhhNalqA" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-
-					<div class="video video-8">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/XDrB5c4-c9Y" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-
-					<div class="video video-9">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/UXP307MGQzs" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-
-					<div class="video video-10">
-						<iframe width="560" height="560" src="https://www.youtube.com/embed/0kY0Q5hdjDI" frameborder="0"
-							allowfullscreen></iframe>
-					</div>
-					<!-- videos -->
 				</div>
 			</div>
+
+
+
+			<!-- </div>
+			</div>
+
+			</div>
+			</div> -->
 
 		</section>
 
@@ -6408,7 +6462,12 @@
 
 	<!-- jQuery JS -->
 	<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://dimsemenov.com/plugins/royal-slider/royalslider/jquery.royalslider.min.js?v=9.3.6"></script>
+
+
+
 	<!-- Bootstrap JS -->
 	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<!-- swiper-slider JS -->
