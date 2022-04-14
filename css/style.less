@@ -993,6 +993,7 @@ section {
 #google-adds {
     text-align: center;
     padding: 20px 0px 20px 0;
+    margin-bottom: 20px !important;
 }
 
 /* 06. slidebar
@@ -1088,7 +1089,8 @@ section {
                         p {
 
                             color: #000;
-                            font-size: 12px;
+                            font-size: 14px;
+                            list-style: 20px;
                             margin: 0;
                             padding: 6px 10px;
 
@@ -1443,6 +1445,23 @@ section {
 
         .btn-item {
             margin-right: 10px;
+            display: inline-block;
+            position: relative;
+            color: #fff;
+            background: #1f0278;
+            height: 40px;
+            padding: 0 20px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: 300;
+            font-size: 18px;
+            font-family: @noto  !important;
+            z-index: 2;
+
+            a {
+                color: #ffffff;
+            }
         }
     }
 
@@ -1562,8 +1581,6 @@ section {
 
         .news-filter-item {
             .news-left {
-                .left-img {}
-
                 .left-text {
                     padding: 0 16px 10px 0px;
 
@@ -1836,8 +1853,6 @@ section {
 
                 .item-img {
                     a {
-                        img {}
-
                         h4 {
                             font-size: 18px;
                             font-weight: 500;
@@ -1930,8 +1945,6 @@ section {
                 }
             }
         }
-
-        .slide-nav {}
     }
 }
 
@@ -2490,7 +2503,6 @@ section {
 
                 .item-img {
                     a {
-                        img {}
 
                         h4 {
                             font-size: 18px;
@@ -2575,8 +2587,6 @@ section {
     }
 
     .border-section {
-        .title-area {}
-
         #news-filter-nav3 {
             button {
                 border: none;
@@ -2669,8 +2679,6 @@ section {
                     border-top: 1px solid #1493ad;
                     background: #f1eae1;
 
-                    .box-img {}
-
                     .box-text {
                         a {
                             h4 {
@@ -2753,8 +2761,6 @@ section {
     padding-top: 0;
 
     .container-fluid {
-        .border-section {}
-
         .news2-inner {
             background-color: #DEE9EB;
 
@@ -2887,7 +2893,9 @@ section {
 
     .top-area-img {
         a {
-            img {}
+            img {
+                width: 100%;
+            }
         }
     }
 }
@@ -3105,16 +3113,10 @@ section {
 #photo-gallery {
     padding-top: 0;
 
-    .border-section {
-        .title-area {}
-    }
-
     #news-filter-content4 {
         #hero {
             figure {
                 position: relative;
-
-                .gallery-img {}
 
                 .gallery-content {
                     text-align: center;
@@ -3487,8 +3489,6 @@ section {
                         font-size: 18px;
                     }
                 }
-
-                .right-img {}
             }
         }
     }
@@ -3549,6 +3549,13 @@ section {
         background: #f1f1f1;
         color: #ffffff !important;
         padding: 50px 20px;
+
+        .container {
+            >.row {
+                border-bottom: 2px solid @Background3  !important;
+                margin-bottom: 30px;
+            }
+        }
     }
 
     .news1-left {
@@ -4033,8 +4040,6 @@ section {
                     box-shadow: none;
                     outline: none;
                 }
-
-                option {}
             }
 
             button {
@@ -4124,6 +4129,48 @@ section {
             .post-saher {
                 margin-bottom: 20px;
 
+                .top-post-saher {
+                    li {
+                        a {
+                            background: transparent;
+                            margin-right: 10px;
+                            border-radius: 2px;
+                            height: unset !important;
+                            line-height: unset !important;
+                            width: unset !important;
+                            color: #000;
+
+                            i {
+                                color: #000;
+                                font-size: 16px;
+                            }
+                        }
+
+                        &.post-class {
+                            a {
+                                text-align: center;
+                                background: @Background3;
+                                padding: 6px 16px;
+                                border-radius: 5px;
+                                color: #ffffff;
+                                font-size: 16px;
+                                margin: 0;
+                                transition: all 0.3s ease;
+
+                                &:hover {
+                                    background: @Background2;
+                                }
+
+                                i {
+                                    color: #ffffff;
+                                    font-size: 16px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+
                 ul {
                     justify-content: end;
 
@@ -4186,8 +4233,7 @@ section {
     .post-left {
         .post-box {
             border: 1px solid rgba(0, 0, 0, 0.157);
-            background: hsl(0, 0%,
-                    78%);
+            background: hsl(0, 23%, 95%);
 
             a {
                 img {
@@ -4215,9 +4261,6 @@ section {
                 display: block;
                 text-align: left;
                 line-height: 35px;
-
-
-                h4 {}
 
                 a {
                     color: @Background;
@@ -4262,41 +4305,73 @@ section {
     }
 
     .comment-box {
-        .comment-box-top {
-            span {
+        background: #ffffff;
+        padding: 5px !important;
+
+        img {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            margin-right: 5px;
+
+        }
+
+        .bg-light {
+            button {
                 display: inline-block;
-                color: @textColor;
+                position: relative;
+                color: #fff;
+                background: @Background;
+                height: 40px;
+                padding: 0 20px;
+                line-height: 40px;
+                text-align: center;
+                text-transform: capitalize;
+                font-weight: 400;
                 font-size: 16px;
-                font-weight: 300;
-                margin-bottom: 20px;
+                font-family: @noto;
+                z-index: 2;
+                margin-right: 5px;
+                border: unset;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background: @Background2;
+                }
             }
         }
 
-        .write-box {
-            padding: 20px;
-            border: 1px solid @textColor;
 
-            .box1 {
-                img {
-                    max-width: 50px;
-                    margin-right: 20px;
-                }
+        .date {
+            font-size: 11px
+        }
 
-                input {
-                    border: 1px solid rgb(160, 158, 158);
-                    outline: none;
-                    box-shadow: none;
-                    border-radius: none !important;
-                    padding: 10px;
+        .comment-text {
+            font-size: 12px
+        }
 
-                    &:focus {
-                        border: 1px solid rgb(160, 158, 158);
-                    }
-                }
-            }
+        .fs-12 {
+            font-size: 12px
+        }
 
+        .shadow-none {
+            box-shadow: none
+        }
 
+        .name {
+            color: #007bff
+        }
 
+        .cursor:hover {
+            color: blue
+        }
+
+        .cursor {
+            cursor: pointer
+        }
+
+        .textarea {
+            resize: none
         }
     }
 }
@@ -4377,6 +4452,8 @@ section {
         overflow: hidden;
         display: block;
         float: left;
+        max-width: 1140px !important;
+        border: 2px solid rgb(160, 17, 17) !important;
     }
 
 
@@ -4474,6 +4551,8 @@ section {
 }
 
 .video-gallery {
+
+
     .news1-left {
         .news1-title {
             h5 {
@@ -4545,6 +4624,13 @@ section {
 }
 
 #contact {
+    .map {
+        iframe {
+            height: 312px !important;
+        }
+
+    }
+
     .map-content {
         h2 {
             font-size: 40px;
@@ -4583,6 +4669,30 @@ section {
                     }
                 }
             }
+        }
+    }
+}
+
+#our-relations {
+    .relations-content {
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: @textColor;
+            font-family: @noto;
+            line-height: 30px;
+
+            img {
+                max-width: 300px;
+                margin-bottom: 30px;
+            }
+        }
+
+        p {
+            color: @textColor;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
         }
     }
 }
