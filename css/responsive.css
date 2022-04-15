@@ -17,6 +17,11 @@ $xs3: 'only screen and (max-width: 375px)';
 $xs4: 'only screen and (max-width: 320px)'; */
 
 @media only screen and (max-width: 320px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -242,7 +247,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }
@@ -399,6 +404,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 375px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -632,7 +642,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }
@@ -789,6 +799,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 414px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -1013,7 +1028,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }
@@ -1175,6 +1190,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 480px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -1393,7 +1413,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }
@@ -1555,6 +1575,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 575px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -1708,6 +1733,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #sp-megamenu {
         top: 65px;
+
     }
 
     #sp-menubar #sp-megamenu .main-menu ul li {
@@ -1772,7 +1798,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }
@@ -1929,6 +1955,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 667px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -2152,7 +2183,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }
@@ -2309,6 +2340,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 767px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -2532,7 +2568,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }
@@ -2689,6 +2725,11 @@ $xs4: 'only screen and (max-width: 320px)'; */
 }
 
 @media only screen and (max-width: 991px) {
+    #sp-menubar #sp-megamenu .main-menu {
+        position: relative;
+        height: 620px !important;
+    }
+
     .post-saher.text-end {
         display: none !important;
     }
@@ -2912,7 +2953,7 @@ $xs4: 'only screen and (max-width: 320px)'; */
 
     #bg-secondary-accent .container-fluid {
         padding: 15px !important;
-        height: 576px;
+        height: 473px;
         overflow: hidden;
         z-index: 0;
     }

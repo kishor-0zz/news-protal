@@ -4430,13 +4430,24 @@ section {
         padding: 0;
     }
 
+    .videoGallery .rsTmb h5 {
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: 300;
+        font-family: @noto;
+    }
+
+    div.rsPlayBtnIcon {
+        border-radius: 50px !important;
+    }
+
     .videoGallery .rsThumb:hover {
         background: #000;
     }
 
     .videoGallery .rsThumb.rsNavSelected {
-        background-color: #02874A;
-        border-bottom: -color #02874A;
+        background-color: @Background3;
+        border-bottom: -color @Background3;
     }
 
     .sampleBlock {
@@ -4446,14 +4457,50 @@ section {
         max-width: 400px;
     }
 
+    // .rsOverflow.grab-cursor {
+    //     width: 910px !important;
+    //     height: 523px !important;
+    // }
+    img.rsImg.rsMainSlideImage {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #fffff;
+        }
+    }
+
+    img.rsImg {
+        // max-width: none;
+        // width: 100% !important;
+        position: relative;
+        border-right: 3px solid #ddd;
+        /* Gray border */
+        border-radius: 4px;
+        /* Rounded border */
+
+        /* Some padding */
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: hsla(0, 0%, 100%, 0.612);
+            top: 0;
+            left: 0;
+        }
+    }
+
     .rsVideoContainer {
         width: 100%;
         height: 100%;
-        overflow: hidden;
+        overflow: hidden !important;
         display: block;
         float: left;
-        max-width: 1140px !important;
-        border: 2px solid rgb(160, 17, 17) !important;
     }
 
 
