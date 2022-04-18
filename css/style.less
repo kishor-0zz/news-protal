@@ -4743,3 +4743,191 @@ section {
         }
     }
 }
+
+
+// .....we.............................
+#we {
+    .top-reportar {
+        .reporter-title {
+            margin-bottom: 20px;
+
+            h4 {
+                position: relative;
+                font-size: 28px;
+                font-weight: bold;
+                margin: 0;
+                padding: 10px 10px 5px;
+                color: @textColor;
+                display: inline-block;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 40px;
+                    height: 2px;
+                    background: #d1cbcb;
+
+                }
+            }
+        }
+
+        .reporter-content {
+            background: #E1E1E1;
+            padding: 30px 0;
+            border-radius: 3px;
+
+            a {
+                img {
+                    width: 150px;
+                    border-radius: 100%;
+                }
+
+                h5 {
+                    font-size: 20px;
+                    line-height: 34px;
+                    margin: 0;
+                }
+
+                p {
+                    color: #74787E;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                    padding: 0 8px;
+                }
+            }
+        }
+    }
+}
+
+// .......reporter-news....................
+#reporter-news {
+    background: #ebeef1;
+
+    .reporter-top {
+        border-bottom: 1px solid #928f8f;
+
+        .reporter-intro {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .intro-img {
+                img {
+                    width: 60px;
+                    border-radius: 100%;
+                    margin-right: 10px;
+                    background: #74787E;
+                }
+            }
+
+            .intro-title {
+                h2 {
+                    font-size: 1.5rem !important;
+                    font-weight: 700;
+                    color: @textColor;
+                    line-height: 20px;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: rgb(95, 93, 93);
+                    font-weight: 300;
+                    margin: 0;
+                }
+            }
+
+        }
+
+        .reporter-saher {
+            margin-bottom: 10px;
+
+            ul {
+                li {
+                    a {
+                        width: 40px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 15px;
+                        display: block;
+                        text-align: center;
+                        color: #fff;
+                        background: 0 0;
+                        position: relative;
+                        transition: all .5s ease;
+
+                        &:hover {
+                            &::after {
+                                background: @Background3;
+                            }
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            background: #770382;
+                            transform: skewX(30deg);
+                            transition: all .3s ease;
+                            z-index: 0;
+
+                        }
+
+                        i {
+                            color: #fff;
+                            position: relative;
+                            z-index: 2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reporter-post {
+        border-bottom: 1px solid #928f8f;
+        display: flex;
+        padding: 20px 0;
+
+        .report-item {
+            a {
+                h2 {
+                    font-size: 35px;
+                    color: @textColor;
+                    font-weight: 500;
+                    line-height: 30px;
+                    margin: 0;
+                }
+            }
+
+            span {
+                color: 14px;
+                color: rgb(133, 130, 130);
+                font-weight: 300;
+                display: inline-block;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                color: @textColor;
+            }
+        }
+
+        .report-post {
+            img {
+                width: 350px;
+                padding-left: 20px;
+            }
+        }
+    }
+}
