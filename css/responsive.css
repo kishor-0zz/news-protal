@@ -1,6 +1,13 @@
 @charset "utf-8";
 
 @media only screen and (max-width: 320px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
@@ -392,6 +399,13 @@
 }
 
 @media only screen and (max-width: 375px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
@@ -791,6 +805,13 @@
 }
 
 @media only screen and (max-width: 414px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
@@ -1186,6 +1207,13 @@
 }
 
 @media only screen and (max-width: 480px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
@@ -1575,6 +1603,13 @@
 }
 
 @media only screen and (max-width: 575px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
@@ -1959,6 +1994,13 @@
 }
 
 @media only screen and (max-width: 667px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
@@ -2348,6 +2390,13 @@
 }
 
 @media only screen and (max-width: 767px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
@@ -2737,6 +2786,13 @@
 }
 
 @media only screen and (max-width: 991px) {
+    #sp-bottom .container .sp-bottom4 .sp-bottom4-title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
     #reporter-news .reporter-post {
         display: block !important;
     }
