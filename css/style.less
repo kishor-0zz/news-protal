@@ -7,6 +7,14 @@ font-family: 'Noto Serif Bengali', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Kalpurush', sans-serif;
 */
+
+
+@font-face {
+    font-family: 'oswald';
+    src: url('vendor/Siyam-Rupali/Siyamrupali.ttf');
+    src: url('vendor/Siyam-Rupali/Siyam-Rupali-ANSI.ttf');
+}
+
 /*	Template Details
 ---------------------------------------------------------
 	Template :   my-portfolio
@@ -38,7 +46,7 @@ font-family: 'Kalpurush', sans-serif;
 @black: #000000;
 @hover: #b8b4b4;
 // @noto: 'Noto Serif Bengali', serif;
-@noto: 'Kalpurush', Arial, sans-serif;
+@noto: 'oswald';
 @Background: rgb(31, 2, 120);
 @Background2: #770382;
 @Background3: #4D027D;
@@ -1590,10 +1598,8 @@ section {
 /* 08. news-isotope1
 -------------------------------------*/
 #news-isotope1 {
-
-
     #news-filter-content {
-        height: 748px !important;
+        height: 735px !important;
         overflow: hidden;
 
         .news-filter-item {
@@ -1623,6 +1629,7 @@ section {
 
                 .left-down {
                     .news1 {
+
                         a {
                             p {
                                 color: #000000;
@@ -2680,6 +2687,7 @@ section {
                 .left-text {
                     background: #f1eae1;
                     min-height: 70px;
+                    overflow: hidden;
 
                     h2 {
                         font-size: 20px;
@@ -2746,7 +2754,9 @@ section {
                 .right-item {
                     .right-item-inne {
                         a {
-
+                            img {
+                                max-height: 198px;
+                            }
 
                             h4 {
                                 font-size: 18px;
@@ -2813,9 +2823,17 @@ section {
     }
 
     .container-fluid {
+        a {
+            img {
+                max-height: 432px !important;
+                overflow: hidden;
+            }
+
+        }
+
         .news2-inner {
             background-color: #DEE9EB;
-            max-height: 397px !important;
+            max-height: 395px !important;
             overflow: hidden;
 
 
@@ -2827,6 +2845,7 @@ section {
                 line-height: 26px;
                 display: block;
                 padding: 10px 0px 10px 10px;
+
 
             }
 
@@ -3518,6 +3537,9 @@ section {
                     border-top: 1px solid @textColor;
 
                     .item-title {
+                        height: 66px;
+                        overflow: hidden;
+
                         h3 {
                             font-size: 18px !important;
                             padding: 5px 5px 5px;
